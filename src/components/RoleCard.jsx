@@ -35,7 +35,7 @@ function RoleCard({ icon: Icon, title, description, features = [], actionLabel, 
 
       <div className="pointer-events-none absolute inset-0 rounded-2xl ring-1 ring-inset ring-transparent group-hover:ring-gray-200" />
     </div>
-  )}
+  )
 }
 
 export default RoleCard
